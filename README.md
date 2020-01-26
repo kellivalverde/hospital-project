@@ -57,8 +57,9 @@ Let’s prepare a project where we can test drive information
 
 We can stare at this stuff all we want but until we actually make some software, High St. Hospital will have patients that are not being served with the best possible care. Time is of the essence! Hurry up, but take your time…
 
-Our first iteration of this new software…
+### Our first iteration of this new software…
 
+_____________________________________________
 Here are the employees at High St. Hospital
 Phil    111    Brain
 Harry    222    Plastic    true
@@ -82,11 +83,13 @@ Some Employees can administer patient care
 Phil has increased patient health to 20
 Harry has increased patient health to 20
 Jackie has increased patient health to 15
+_____________________________________________
+
 As you look at this output to the console, the true/false attached to some of the employees simply represents the state they are in relative to if they are currently involved in their jobs or not.
 
 ## Part 4
 
-Stretch task: Tina is an EmergencyDispatcher. She is a trained medical professional and a first responder. She also has great people skills and can answer calls and manage what ambulance gets sent to a situation. She sometimes joins the crew and respondes to calls on the fly. Add her as an employee and give her the proper functionality. This job pays 45,000.
-Stretch task: Through user input, type search for an employee by name and access their info/what they are doing
-Stretch task: add an employee, fire an employee#  <#Title#>
+- Stretch task: Tina is an EmergencyDispatcher. She is a trained medical professional and a first responder. She also has great people skills and can answer calls and manage what ambulance gets sent to a situation. She sometimes joins the crew and respondes to calls on the fly. Add her as an employee and give her the proper functionality. This job pays 45,000.
+- Stretch task: Through user input, type search for an employee by name and access their info/what they are doing
+- Stretch task: add an employee, fire an employee#  <#Title#>
 
