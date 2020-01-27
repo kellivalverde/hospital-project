@@ -4,7 +4,7 @@ public class Doctor extends Employee implements MedicalDuties { // wants to use 
 																// MedicalDuties
 	// extracted a superclass for shared methods
 
-	private String specialty;
+	protected String specialty;
 
 	public String getSpecialty() {
 		return specialty;
@@ -13,8 +13,11 @@ public class Doctor extends Employee implements MedicalDuties { // wants to use 
 	// constructor
 	public Doctor(String employeeNum, String employeeName, String specialty) {
 		// Employee Number, Employee Name, Specialty Area (Heart, Brain, Foot, etc…)
-		this.employeeNum = employeeNum;
-		this.employeeName = employeeName;
+
+		super(employeeNum, employeeName);
+
+		// this.employeeNum = employeeNum;
+//		this.employeeName = employeeName;
 		this.specialty = specialty;
 
 	}

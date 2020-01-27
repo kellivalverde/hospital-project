@@ -9,8 +9,10 @@ public class Receptionist extends Employee {
 	}
 
 	public Receptionist(String employeeNum, String employeeName, boolean isAnsweringPhone) {
-		this.employeeNum = employeeNum;
-		this.employeeName = employeeName;
+		super(employeeNum,employeeName);
+		
+//		this.employeeNum = employeeNum;
+//		this.employeeName = employeeName;
 		this.isAnsweringPhone = isAnsweringPhone;
 
 	}

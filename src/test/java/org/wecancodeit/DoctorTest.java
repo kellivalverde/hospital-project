@@ -6,19 +6,12 @@ import org.junit.Test;
 
 public class DoctorTest {
 
-	/*
-	 * Not all employees in the hospital have the same capabilities. Only certain
-	 * staff members can implement MedicalDuties such as drawBlood() and
-	 * careForPatient()
-	 */
-
+	
 	// Arrange
 	Doctor underTest = new Doctor("1", "Dr. Name", "Specialty");
 	Patient patient = new Patient();
 
-	// test on state verification (variables) - want to show the the bloodLevel
-	// variable decreases after this method is done
-
+	
 	@SuppressWarnings("deprecation")
 	@Test
 	public void shouldBeAbleToDrawBlood() {

@@ -12,8 +12,7 @@ public class Nurse extends Employee implements MedicalDuties {
 
 	// Nurse constructor
 	public Nurse(String employeeNum, String employeeName, int numPatients) {
-		this.employeeNum = employeeNum;
-		this.employeeName = employeeName;
+		super(employeeNum, employeeName);
 		this.numPatients = numPatients;
 
 	}

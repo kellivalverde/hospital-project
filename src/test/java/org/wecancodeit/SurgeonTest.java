@@ -11,6 +11,8 @@ public class SurgeonTest {
 	Surgeon underTest = new Surgeon("3", "Dr. Surgeon Name", "Surgery", true);
 	Patient patient = new Patient();
 
+	// This repeats the Doctor Test, though...?
+
 	@SuppressWarnings("deprecation")
 	@Test
 	public void shouldBeAbleToDrawBlood() {
@@ -19,7 +21,6 @@ public class SurgeonTest {
 		int bloodLevelBefore = patient.getBloodLevel();
 		underTest.drawBlood(patient);
 		int bloodLevelAfter = patient.getBloodLevel();
-
 		// assert
 		assertThat(bloodLevelBefore - bloodLevelAfter, is(5));
 
@@ -64,9 +65,9 @@ public class SurgeonTest {
 	}
 
 	@Test
-	public void shouldBeAbleToOperateOnPatient() {
+	public void shouldBeOperating() {
 
-		boolean check = underTest.getOperatingOrNot();
+		boolean check = underTest.isOperating();
 		assertEquals(check, true);
 	}
 
