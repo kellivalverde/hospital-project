@@ -13,6 +13,12 @@ public class Hospital {
 		employees.put(employee.getEmployeeNumber(), employee);
 	}
 
+	public void fireEmployee(Employee employee) {
+		employees.remove(employee.getEmployeeNumber(), employee);
+	}
+
+	
+	
 	public Collection<Employee> getAllEmployees() {
 		return employees.values();
 	}
