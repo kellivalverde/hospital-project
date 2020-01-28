@@ -24,11 +24,18 @@ public class HospitalApp {
 		hospital.addEmployee(rosie);
 		hospital.addEmployee(tina);
 		
-		System.out.println("Here are the salary rates:");
-		hospital.showPayRates();
+//		System.out.println("Here are the salary rates:");
+//		hospital.showPayRates();
+//		
+//		System.out.println("Here are Medical Personnel:"); //need a toString to get names
+//		hospital.showAllMedicalPersonnel();
+//		
+		hospital.showAllEmployees();
 		
-		System.out.println("Here are Medical Personnel:"); //need a toString to get names
-		hospital.showAllMedicalPersonnel();
+		
+		
+		
+		
 		
 		
 //		System.out.println("Would you like to remove an employee?");
